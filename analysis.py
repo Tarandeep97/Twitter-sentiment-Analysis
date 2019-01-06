@@ -1,6 +1,6 @@
 import tweepy,twitter_text
-auth = tweepy.OAuthHandler('k6BFDMNQ7Ze2zmfq7RXGlrW0T','2Sqax0hGpfXUVOwzUFGccq4x3evJ6hzWoUXeWxNFtYzxJA1itm')
-auth.set_access_token('821745978122338310-xzXQc56UyBZm6G8nsL56MFqZazWFCUL','hAhPfPZbiCer6AnyQ1Fl43XepTLSneCPUFbJV4kOMlowq')
+auth = tweepy.OAuthHandler('----------','-------------------------------')
+auth.set_access_token('--------------------','-----------------------------')
 api = tweepy.API(auth)
 print(api)
 
